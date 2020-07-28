@@ -1,1 +1,39 @@
-/* song css */
+.song {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 2px solid lightgrey;
+  margin: 10px 20px;
+  font-family: "Gudea", sans-serif;
+}
+
+.left .rank {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.stream,
+.publication {
+  font-size: 12px;
+  color: gray;
+}
+
+.right {
+  margin-left: 30px;
+  flex-grow: 1;
+}
+
+.right .title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.right .artist {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.publication {
+  text-align: right;
+}

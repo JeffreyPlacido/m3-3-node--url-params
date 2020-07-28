@@ -1,0 +1,11 @@
+<%- include('../partials/header') %>
+    <div class='songBox'>
+        <div class='boxTitle'><%= data.title %> </div>
+        <div class='boxArtist'><%= data.artist %> </div>
+        <div class='boxStream'><%= data.streams %> </div>
+    </div>
+    <div class='btns'>
+        <button><a href='/top50/song/<%= data.rank-1 %>'>Song #<%= data.rank - 1 %></a></button>
+        <button><a href="/top50/song/<%= data.rank+1 %>">Song #<%= data.rank + 1 %></a></button>
+    </div>
+<%- include('../partials/footer') %> 

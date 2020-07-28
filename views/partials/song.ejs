@@ -1,0 +1,13 @@
+<% data.forEach( elem => { %>
+    <li class='song'>
+        <div class='left'>
+            <div class='rank'><%= `#${elem.rank}` %></div>
+            <div class='stream'><%= `(${elem.streams} streams)` %></div>
+        </div>
+        <div class='right'>
+            <div class='title'><%= elem.title %> </div>
+            <div class='artist'><%= `by ${elem.artist}` %> </div>
+            <div class='publication'><%= `publication date: ${elem.publicationDate}` %></div>
+        </div>
+    </li>
+<% }) %> 

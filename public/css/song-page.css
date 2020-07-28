@@ -1,1 +1,61 @@
-/* song page css */
+.songBox {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 50vw;
+  height: 40vh;
+  transform: translateX(-50%);
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px lightgrey;
+  text-align: center;
+  padding: 20px;
+  font-family: "Gudea", sans-serif;
+}
+
+.boxTitle {
+  font-size: 36px;
+  border-bottom: 2px solid lightgrey;
+  padding: 8px;
+}
+
+.boxArtist {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.boxStream {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 9em;
+  color: lightgrey;
+}
+
+.btns {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btns button {
+  border: none;
+  background-color: lightgrey;
+  border-radius: 4px;
+  padding: 10px;
+  width: 140px;
+  transition: transform 0.5s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
